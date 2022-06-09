@@ -1,0 +1,19 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="fastai.vision" />
+          <option value="error_rate" />
+          <option value="main.astai" />
+          <option value="build_dataset.pyimagesearch" />
+          <option value="pyimagesearch" />
+          <option value="test.fastai" />
+          <option value="tensorflow.python.keras.utils.to_categorical" />
+          <option value="main.ocrdetection" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

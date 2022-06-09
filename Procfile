@@ -1,0 +1,1 @@
+web: gunicorn my_awesome_django_project.wsgi --log-file -

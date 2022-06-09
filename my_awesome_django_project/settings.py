@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
+import os
 from pathlib import Path
 import environ
 import dj_database_url
@@ -26,6 +26,11 @@ environ.Env.read_env()
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-wtdqu+#ad^uuzk0lyyocv^rk((x#8=y@xy_t0ri$6qo@t^gmx+'
+
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
